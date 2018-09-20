@@ -1,0 +1,159 @@
+1.
+(单选题)在Java中，执行下列语句后i和j的值分别是（）。
+int i = 1; 
+int j = i++;
+ A.2和1
+ B.2和2
+ C.1和2
+ D.1和1
+
+
+
+2.
+(单选题)在Java中有一个类Aoo，下面为其构造方法的声明，正确的是（）。
+ A.void Aoo(){ }
+ B.Aoo(){ }
+ C.aoo(){ }
+ D.void aoo(){ }
+
+
+3.
+(单选题)如下Java代码的输出结果是（）。
+int a=10;
+System.out.println(a/=4);
+ A.2
+ B.2.5
+ C.4
+ D.编译错误
+
+
+4.
+(单选题)在Java中有如下代码： int[] arr = new int[10]; 
+下列选项说明中正确的是（）：
+ A.arr[9]未定义
+ B.arr[0]为null
+ C.arr[10]为0
+ D.arr[9]为0
+
+
+5.
+(单选题)int i= 10; 
+int j = 10;
+boolean flag = i++>10 && ++j>10;
+程序运行结束，i,j值分别是（ ）。
+ A.10,10
+ B.10,11
+ C.11,11
+ D.11,10
+
+
+6.
+(单选题)下列正确的定义数组的选项是（ ）。
+ A.int [] arr;
+ B.int [5] arr;
+ C.int arr[5];
+ D.int arr ;
+
+
+7.
+(单选题)在Java中，对变量命名规范说法正确的是：（ ）。
+ A.变量由字母、数字、下划线和$符随意组成
+ B.变量不能以数字开头
+ C.name和Name在java中是同一个变量
+ D.不同类型的变量，名字可以相同
+
+
+8.
+(单选题)在Java中， 以下（）是public void Test()的重载方法。
+ A.void Test() { }
+ B.public int Test() { }
+ C.public void Test() { }
+ D.public void Test(int num) { }
+
+
+9.
+(单选题)以下可以实现交换a，b两个数的算法的是（）。
+ A.int t=a; b=t; t=b;
+ B.int t=a; b=a; a=t;
+ C.int t=a; a=b; b=t;
+ D.int t=b; a=b; b=t;
+
+
+10.
+(单选题)在Java中，System.out.println("5"+2);的输出结果是（）。
+ A.2
+ B.5
+ C.7
+ D.52
+
+
+11.
+(单选题)定义如下数组，double[] arr = new double[5];
+下列说法正确的是（ ）。
+ A.arr[4]值为0.0
+ B.arr[4]未定义
+ C.arr[5]值为0.0
+ D.arr[5]值为空
+
+
+12.
+(单选题)在Java中有以下的方法定义，该方法的返回类型是（）。
+ReturnType method(byte a,double b){
+return (short)a/b*2;
+}
+ A.byte
+ B.short
+ C.int
+ D.double
+
+
+
+13
+下列for循环执行结束后，输出结果是：（）。
+int y = 1;
+for(System.out.println("a"); y < 3; System.out.println("c")){
+System.out.println("d");
+y++;
+}
+ A.a d c d d
+ B.a d d d d
+ C.a c d c d
+ D.a d c d c
+
+
+14.
+(单选题)给出以下代码，请问如何声明totalPage使其为一个只读属性（ ）。
+public class Page{
+public int totalPage;
+}
+ A.声明totalPage变量为private。
+ B.声明Page类为private。
+ C.声明totalPage变量为private，并且建立一个用于获取totalPage变量值
+的getTotalPage() 方法。
+ D.声明totalPage变量为static。
+
+
+
+15
+(单选题)int x = 10;
+x = x++ +10;
+System.out.println(x);
+程序会输出（ ）。
+ A.11
+ B.10
+ C.21
+ D.20
+
+
+1.求出100到1000之内的水仙花数。所谓水仙花数是指一个3位数，其各位数字的立方和等于其本身。
+
+
+2.给定一个正整数，编写程序计算有多少对质数的和等于这个输入的正整数，并输出结果. 
+测试用例： 
+输入：10 
+输出：2 （(3,7) 和（5，5））。
+
+
+
+   
+
